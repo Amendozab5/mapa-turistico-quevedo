@@ -47,8 +47,8 @@ GET /turismo10022025/subcategoria/getlistadoCB/{categoria_id}
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Amendozab5/API-RESTful.git
-cd API-RESTful
+git clone https://github.com/Amendozab5/mapa-turistico-quevedo.git
+cd mapa-turistico-quevedo
 ```
 
 ### 2. Configurar la API Key de Google Maps
