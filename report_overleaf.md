@@ -114,7 +114,7 @@
 {\large \textbf{Docente:} Ing. ZAMBRANO VEGA CRISTIAN GABRIEL}\\[0.3cm]
 {\large \textbf{Carrera:} Ingeniería en Software}\\[1.5cm]
 {\large \textbf{Link del Repositorio:}}\\[0.3cm]
-{\large \href{https://github.com/Amendozab5/API-RESTful}{https://github.com/Amendozab5/API-RESTful}}\\[0.6cm]
+{\large \href{https://github.com/Amendozab5/mapa-turistico-quevedo}{https://github.com/Amendozab5/mapa-turistico-quevedo}}\\[0.6cm]
 {\large Año Lectivo 2026}
 \end{titlepage}
 
@@ -130,7 +130,7 @@ El desarrollo de aplicaciones móviles modernas requiere la integración de serv
 Este informe constituye el documento de soporte técnico del proyecto. Los entregables asociados son:
 \begin{itemize}
     \item \textbf{Informe Técnico en formato PDF}: Documentación del diseño, implementación y evaluación.
-    \item \textbf{Código Fuente del Proyecto}: Alojado en el repositorio oficial de GitHub: \href{https://github.com/Amendozab5/API-RESTful}{https://github.com/Amendozab5/API-RESTful}.
+    \item \textbf{Código Fuente del Proyecto}: Alojado en el repositorio oficial de GitHub: \href{https://github.com/Amendozab5/mapa-turistico-quevedo}{https://github.com/Amendozab5/mapa-turistico-quevedo}.
     \item \textbf{Archivo Ejecutable APK}: Compilado listo para su instalación y pruebas en entornos Android SDK 34+.
 \end{itemize}
 
@@ -178,14 +178,24 @@ A continuación, se describen las capturas que ilustran la aplicación móvil ej
 
 \begin{figure}[H]
     \centering
-    % Descomentar y ajustar los nombres de las imágenes una vez tomadas las capturas
-    % \includegraphics[width=0.45\textwidth]{mapa_inicial.png}
-    % \includegraphics[width=0.45\textwidth]{filtro_aplicado.png}
-    \caption{Vista general de la aplicación: a la izquierda, inicialización con círculo de búsqueda y marcadores en Quevedo; a la derecha, aplicación de filtros de categoría y subcategoría en tiempo real.}
-    \label{fig:capturas}
+    \includegraphics[width=0.55\textwidth]{mapa_inicial.PNG}
+    \caption{Inicialización de la aplicación con coordenadas de Quevedo, carga automática de marcadores y círculo de radio de búsqueda dibujado en el mapa.}
+    \label{fig:mapa_inicial}
 \end{figure}
 
-*Nota: Reemplazar los marcadores de posición de imágenes en Overleaf por las capturas de pantalla de tu celular físico o emulador donde se demuestren los resultados obtenidos.*
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.55\textwidth]{filtro_aplicado.PNG}
+    \caption{Aplicación de filtros de categorías y subcategorías filtrando dinámicamente por ID los lugares turísticos en el mapa.}
+    \label{fig:filtro_aplicado}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.55\textwidth]{filtro_aplicado2.PNG}
+    \caption{Segundo escenario de filtrado aplicado mostrando de forma interactiva los marcadores correspondientes a la consulta seleccionada.}
+    \label{fig:filtro_aplicado2}
+\end{figure}
 
 \newpage
 
